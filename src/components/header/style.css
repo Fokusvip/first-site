@@ -1,0 +1,60 @@
+.topBar{
+    background: #eeeeee;
+    height: 50px;
+}
+
+.topBar .fa{
+    padding-right: 3px;
+}
+
+.topBarUlLeft{
+    list-style: none;
+    float: left;
+}
+
+.topBarUlLeft li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.topBarUlLeft li:first-child{
+    padding-left: 0px;
+}
+
+.topBarUlLeft li a{
+    display: block;
+    text-decoration: underline;
+    color: #434343;
+}
+
+.topBarUlLeft li a:hover{
+    text-decoration: none;
+}
+
+.blueLink{
+    color: #007bff !important;
+}
+
+/* Right ul */
+
+.topBarUlRight{
+    list-style: none;
+    float: right;
+}
+
+.topBarUlRight li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.topBarUlRight li a{
+    display: block;
+    text-decoration: underline;
+    color: #434343;
+}
+
+.topBarUlRight li a:hover{
+    text-decoration: none;
+}
